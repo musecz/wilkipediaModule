@@ -16,7 +16,7 @@ export class WilkipediaSearchComponent implements OnInit {
     this.term$
         .debounceTime(400)
         .distinctUntilChanged()
-        .subscribe(term => {
+        .subscribe(term => {  
       this._service.search(term);
     })
   }

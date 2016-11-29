@@ -9,9 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
-
-import { WilkipediaModule } from './wilkipedia/wilkipedia.module';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +20,6 @@ import { WilkipediaModule } from './wilkipedia/wilkipedia.module';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    WilkipediaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

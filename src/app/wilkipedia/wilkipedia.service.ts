@@ -17,7 +17,6 @@ export class WilkipediaService {
     return this._jsonp.get('http://en.wikipedia.org/w/api.php?callback=JSONP_CALLBACK', {search})
         .map(res => res.json()[1])
         .subscribe(res => {
-          console.log(res);
           this.term$.next(res)
         });
   }
