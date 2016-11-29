@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+/*Some style when the route is active*/
+.active {
+    background-color: cornflowerblue;
+}
+
